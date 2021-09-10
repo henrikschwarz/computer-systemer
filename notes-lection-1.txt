@@ -1,0 +1,15 @@
+Notes for lecture 1 03-09-2021:
+Bog rec:
+	Mærk verdenen (Handler om information)
+
+Mål:
+	tjek kursus hjemmesiden
+
+Seven big ideas
+George boole
+	- 4 axioms
+
+Flip-flop
+	basic memory example
+	One input sets, one resets
+
