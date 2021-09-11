@@ -1,0 +1,53 @@
+lecture 2 10-09-2021
+
+Types of flip-flops:
+	- SR flip-flop
+		- S is for set
+		- R is for reset
+	- D flip-flop
+		- D flip flop uses a clk input. When the clk goes from low to
+		  high the flip-flop outputs and saves the state of input D
+	- More examples in the links
+
+Bytes
+	- Size is 8 bits
+	- 2^8 possible values
+	- Right most bit is MSB ( most significant bit)
+	- Left most bit is LSB ( least significant bit)
+	
+Memory:
+	- Contains cells of 8 bits
+	- Is addressed according to 8 bits (or 1 byte)
+		- IE. first 8 bytes have address 0001, next 8 bits has address
+		  0002, and so on
+	- If a system is 64 bit it is still addressed like a 8 bit system
+		- IE. First 64 bits are addressed as 0001, next 64 bits are
+		  addressed as 0008
+			- That is because 64 bit is 8*8 bit
+
+Binary representation
+	- Fractions
+		- Fixed point (4.4) system
+			- first 4 bits are positive powers of 2 (2^0, 2^1, 2^2,
+			  2^3) and the last 4 are negative powers of 2 ( 2^-1,
+			  2^-2, 2^-3, 2^-4)
+	- Negative
+		- 2's complement
+			- MSB is bit that indicates negative value
+			- Uses addition
+			- Careful about overflow
+	- Excess notation
+		- Find the middle and then the upper part is positive and the
+		  bottom negative.
+			- IE. Excess 4bit is 1000 = 0 and 1001 = -1
+	- Floating point
+		- Used for representing floats
+
+
+
+
+
+Links:
+Types of flip-flops:
+	- https://www.dummies.com/programming/electronics/diy-projects/digital-electronics-types-of-flip-flop-circuits/
+	- https://www.elprocus.com/digital-electronics-flip-flop-circuit-types-and-applications/
