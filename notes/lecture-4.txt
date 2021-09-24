@@ -1,0 +1,75 @@
+lecture 4 24-09-2021
+
+General information:
+	October 1st point giving activity
+		Grants max 5 points
+		starts at 12.15 structor hours
+		Covered materials in lecture_4.pdf
+	The lectures follow the "semester plan"
+		Means lectures should end on 10th december if we can follow the
+		plan accordingly
+
+Lecture notes:
+
+Bus connects to the main memory to cpu
+	One line per bit (64 lines in a 64 bit system)
+Cpu contents:
+	Registers
+		Same as main memory, just smaller and faster (because closer to
+		cpu)
+	ALU (Algrebraic logical unit)
+	CU (control unit)
+	3 types of BUS
+		Data BUS
+			bi-directional
+		Adress BUS
+		Control BUS
+			Control BUS knows if it is READ or WRITE operation
+			(supplied by cpu)
+	CPU and RAM clock frequency
+		IF they are not the same one waits for the other
+			CPU faster: uses wait states
+			RAM faster: CPU sets the "tempo"
+	Program counter
+		Tracks the instructions
+			Current instruction and next instruction
+John Von Neuman
+	Invented Von Neuman architecture
+	Stored program concept
+		Change main memory when program changes instead of the cpu
+		wiring
+		
+Machine instructions is a instruction code with binary for the CPU
+A machine language is a collection of machine instructions
+
+Assembler is a collection of mnemonics for programming a specific CPU
+CPU architectures:
+	RISC (reduced instruction set computing)
+		few simple, efficient, fast instructions
+		examples: ARM, PowerPC from apple
+	CISC (complex instruction set computing)	
+		Many complex, convenient and powerful instructions
+		example: intel
+
+types of instructions:
+	data transfer
+	arithmatic and logic
+	control
+
+MAchine code instruction
+	Opcode
+	Operand
+
+Machine cycle
+	Fetch
+	Decode
+	Perform
+
+Bit masking
+	Keeping and clearing bits by using AND, OR, XOR
+		Bitwise ANDing in order to extract a subset of the bits in the value
+		Bitwise ORing in order to set a subset of the bits in the value
+		Bitwise XORing in order to toggle a subset of the bits in the value
+	Stack exchange link:
+		https://stackoverflow.com/questions/10493411/what-is-bit-masking
+

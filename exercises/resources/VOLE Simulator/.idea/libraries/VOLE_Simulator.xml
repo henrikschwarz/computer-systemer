@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="VOLE_Simulator">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/VOLE_Simulator.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
