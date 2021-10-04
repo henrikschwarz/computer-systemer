@@ -1,0 +1,56 @@
+lecture 5 01-10-2021
+
+Types of memory:
+	RAM - Random access memory
+	Main memory
+	ROM - Read only memory
+	EEROM - Electrically erasable read only memory
+	EEPROM - Electrically erasable read only memory
+	Flash - Flash memory
+
+Adress decoding:
+	We can check if we are in the right memory area by checking the 2 most
+	significant bits
+	3 scenarios (check slides from lecture 5 page 10)
+		11 = use AND gate
+		01 = use NOT connected to AND gate
+		00 = use 2 NOT connected to AND gate
+
+Communicating with other devices:
+	Cotnroller
+		Hanldes communication between devices
+		Specialized devices
+		USB
+	Port
+		Point device connects to
+	Memory mapped I/O
+		Memory mapped I/O
+	Direct memory access
+		Von neumann bottle neck
+	Handshaking
+		Handshaking er overholdse af en protocol
+		Aftal en protokol
+			IE. API, HTTP, Distributed systems, multiprocessor
+			systemer
+		Protocol needs to agree on:
+			Sequence, Language, Format, Speed, etc..
+	Popular communication techniques:
+		Parallel communication:
+			Several lines transfer at the same time
+		Serial communication:
+			Signals transfered over one line (USB)
+	I/O standards
+		RS-232, USB, HDMI, VGA, Ethernet, Analog radio
+Expand control bus (slide 18):
+	1 bit for READ and WRITE
+	1 bit for timing data transfer
+	1 bit for determining if it is ain memory or I/O controller
+	Other solution (slide 19):
+		Include the I/O addresse in the main memory address space
+
+Other archtiectures:
+	Pipelining
+	Parallel processing
+	SISD
+	MIMD
+	SIMD
