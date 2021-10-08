@@ -1,0 +1,48 @@
+lecture 6 08-10-2021
+
+Software classification:
+	Se the chart from slide 10-13 in lecture slide 6
+
+real-time computers
+	Computere der skal holde øje med tid og tjekke ting præcist
+
+Embededsystems:
+	uses operating systems like:
+		freeRTOS
+		threadX
+		microC
+		VxWorks
+
+Process state:
+	New - just made 
+	Ready - Has resources, waiting for cpu time
+	Running - Running on the cpu 
+	Waiting - Waiting for I/O
+	Terminated - process finished
+	See diagram on slide 23
+Process handling
+	Scheduler
+		Adds new processes to the process table and removes completed ones
+	Dispatcher
+		Controls the allocation of time slices to the processes in the process
+		table
+	Context switching
+		saves and restores states when switching between processes
+
+Concurrent process handling
+	Critical region
+		Instructions that should only be executed by one process of a
+		time.
+		Tools for handling critial region:
+			Semaphore - Control flag
+			Mutual exclusion - Requirement for only one process
+			running in the region
+	Race condition
+		When more processes use the same critial resource
+		Can result in inconsistent data
+	Deadlock
+		Processes that block eachother because they are waiting for a
+		resource the other one has
+		See slide 36
+			
+		
