@@ -1,7 +1,7 @@
 lecture 6 08-10-2021
 
 Software classification:
-	Se the chart from slide 10-13 in lecture slide 6
+	See the chart from slide 10-13 in lecture slide 6
 
 real-time computers
 	Computere der skal holde øje med tid og tjekke ting præcist
