@@ -1,0 +1,59 @@
+lecture 7 15-10-2021
+
+Communication classes:
+	Simplex
+		One commnicates with the other (one way)
+	Half Dublex
+		Take turns sending
+	Full duplex
+		Both send at the same time
+
+Communication types:
+	Parrallel
+		One line per bit
+	Serial
+		One line, bits are designated by time slices
+
+Information and exformation
+	Exformation
+		Meta data about the transmission
+		Agreement for the transmitter and the reciever 
+		Could be:
+			Transmission protocol	
+			Data type
+			Extra information about the data
+	Information
+		The actual data that needs to be transmitted/recieved
+Protocol
+	Slide 14
+
+Network topology
+	Types of communication
+		Peer-to-peer - One computer talks directly to another computer
+		Multidrop - Many computers talk on the same communication line
+	Arangement of computers in a network
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/NetworkTopologies.svg/2560px-NetworkTopologies.svg.png
+	Collision detection
+	Network Scheduling
+	
+The Internet
+	The edge
+	Hosts
+		End system
+	The Core
+	ISP
+	Packet Switch
+
+Subnet addressing
+	subnet
+	CIDR
+	Subnet mask
+Distributed hierarchical database
+	Root DNS
+	dcomain dns
+		.com
+		.org
+		.edu
+		.dk
+
+

@@ -1,0 +1,18 @@
+lecture notes from lecture 8 12-11-2021
+
+internet protocol stack
+	application
+		runs application processes
+	transport
+		responsible for data transfer
+	network
+		responsible for transfer data from host to host
+	link
+		rwesponsible for transfer data from node to node via a link
+	physical
+		transfers the bits via the physical link
+
+Networks in one line: package everything with extra headers from the other layers,
+send it, unpackage everything by pealing off the headers.
+
+ 
